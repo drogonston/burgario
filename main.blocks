@@ -1,0 +1,18 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable type="KIND_SpriteKind" id="zsza[;qU5oQ|C[k0s1X5">Player</variable><variable type="KIND_SpriteKind" id="yb2-.@.lZylc:jWq:Y9j">Projectile</variable><variable type="KIND_SpriteKind" id="oHJUzyI%oNV#AS@)L{^Q">Food</variable><variable type="KIND_SpriteKind" id="4M}qKw,75Bn~xXP$q#fw">Enemy</variable><variable id="J/c)iSKJ7$4o,!rjs/dg">burgario</variable><variable id="|ey!f-2zPg.0?d,5v^,l">mySprite</variable></variables><block type="pxt-on-start" id="f3`J3IS71%)104CC{|[X" x="-190" y="-230"><statement name="HANDLER"><block type="hudSetLife" id="o0u*sO[LVV??v(QNZb#N"><value name="value"><shadow type="math_number" id="$$zjWz?L[+M|ukZ2gDH."><field name="NUM">3</field></shadow></value><next><block type="variables_set" id="C}8WizBH?%;6?M`91ucS"><field name="VAR" id="J/c)iSKJ7$4o,!rjs/dg">burgario</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="Mu=d]:sQUe~_JNx/dv$f"><value name="img"><shadow type="screen_image_picker" id="Lgd`,(I8bi0~Ta9Gv.Xc"><field name="img">img`
+. . . . . . . . . . . . . . . . 
+. . . . . 4 4 4 4 4 4 4 . . . . 
+. . . . 4 4 4 4 4 4 4 4 4 . . . 
+. . . 4 4 f 4 4 4 4 f 4 4 4 . . 
+. . 4 4 4 4 4 4 4 4 4 4 4 4 . . 
+. . 4 4 4 4 4 4 4 4 4 4 4 4 . . 
+. f 7 7 7 7 7 7 7 7 7 7 7 7 f . 
+f . 2 2 2 f 2 7 2 2 2 2 2 2 . f 
+f . e e e e f f f f f e e e . f 
+f . e e e e e e e e e e e e . f 
+f . 4 4 4 4 4 4 4 4 4 4 4 4 . f 
+. . 4 4 4 4 4 4 4 4 4 4 4 4 . . 
+. . . . . f . . . . f . . . . . 
+. . . . . f . . . . f . . . . . 
+. . . . f f . . . . f f . . . . 
+. . . . . . . . . . . . . . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"Lgd`,(I8bi0~Ta9Gv.Xc"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="^PC;#K@uxa~+Tfa7uHyu"><field name="MEMBER">Player</field></shadow></value></block></value></block></next></block></statement></block><block type="gamelifeevent" id="OuI:SS)@T+KK$8c!+d0m" x="0" y="0"></block></xml>
